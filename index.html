@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ProMan - Personal Portfolio HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51" >
+    <!-- ... tu contenido ... -->
+
+  
+<!-- <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51"> -->
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+<!-- boton de luz -->
+<!-- <header>
+   
+    <button id="toggleColorButton">Cambiar Color</button>
+
+</header> -->
+
+<div class="toggleWrapper">
+    <input type="checkbox" class="dn" id="dn">
+    <label for="dn" class="toggle">
+        <span class="toggle__handler">
+            <span class="crater crater--1"></span>
+            <span class="crater crater--2"></span>
+            <span class="crater crater--3"></span>
+        </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+    </label>
+</div>
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Portafolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                 <a href="#home" class="nav-item nav-link active">Inicio</a>
+                <a href="#about" class="nav-item nav-link">Sobre mi</a>
+                <a href="#skill" class="nav-item nav-link">Habilidades</a>
+                <a href="#service" class="nav-item nav-link">Servicios</a>
+
+       
+            </div>
+
+            <!-- <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">ProMan</h1>
+            </a> -->
+
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Proyectos</a>
+                <!-- <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a> -->
+                <a href="#contact" class="nav-item nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <!-- <h1 class="display-3 mb-3">Ivón Madrid</h1>
+                    <h2 class="typed-text-output d-inline"></h2> -->
+                    <div class="display-3 mb-3">Ivón Madrid</div>
+                    <div class="typed-text-output d-inline ">Texto adicional</div>
+
+                    <div class="typed-text d-none">Diseñadora web, Desarrolladora web, Desarrollador front-end, Diseñadora de aplicaciones, Desarrolladora de aplicaciones, Desarrolladora Full Stack</div>
+                    <!-- <div class="d-flex align-items-center pt-5"> -->
+                        <!-- <a href="" class="btn btn-primary py-3 px-4 me-5">Download CV</a> -->
+                        <div class="d-flex align-items-center pt-5">
+                            <a href="img/Curriculum_N_P.pdf" class="btn btn-primary py-3 px-4 me-5" download>Descargar CV</a>
+                        </div>
+                        
+                        <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5> -->
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/projects/foto3portada-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <!-- <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start --------------------------------------------------------------------->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">SOBRE MI</h1>
+                            <!-- <h5 class="mb-0">Years</h5> -->
+                        </div>
+                 </div> 
+                 <p style="font-size: 18px;">Soy una desarrolladora,diseñadora web full stack con habilidades en frontend y backend.<br> Creo experiencias digitales atractivas y funcionales utilizando diversas tecnologías como HTML, CSS, JavaScript, React.js, Node.js y mucho más. <br>Soy una solucionadora de problemas, apasionada y una aprendiz constante. <br>
+                    Estoy preparada para contribuir al éxito de los proyectos web y transformar ideas en aplicaciones de alta calidad.<br>
+                    <br> ¡Contáctame si necesitas una desarrolladora confiable y comprometida!.</p>
+                <br>
+            <!-- ------ -->
+            <div class="d-flex align-items-center mb-3">
+                <img class="img-fluid rounded" src="img/projects/foto1portada-PhotoRoom.png-PhotoRoom.png" alt="">
+
+                    <!-- <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                    <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2> -->
+                </div> 
+            
+                </div>
+         
+                    <!-- <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Afordable Prices</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>High Quality Product</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>On Time Project Delivery</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a> -->
+                    <!-- <div class="texto" style="color: #333; font-size: 20px;">¿Te gustaría aprender programación? <br>Aquí os dejo el link del Bootcamps intensivo de "Factoría F5"</div> -->
+                    <!-- <h7 class="mb-3"<i class="far fa-check-circle text-primary me-3"></h7> -->
+                    <!-- <p class="mb-3"  style="color: #333; font-size: 20px;"><i class="far fa-check-circle text-primary me-3"></i>¿Te gustaría aprender programación? <br>Aquí os dejo el link del Bootcamps intensivo de "Factoría F5"</p> -->
+                    <!-- <a href="https://www.ejemplo.com" class="custom-button">Ir al enlace</a>
+                    <h8 class="mb-3" style="color: #333; font-size: 20px;"><i class="far fa-check-circle text-primary me-3"></i>¡También te ofrezco un pequeño curso en mi sección de servicios, lo podrás hacer online y en tu tiempo!</h>
+                 </div>  -->
+
+
+    
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                   
+                        <div class="row g-3 mb-4">
+                     
+                         <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/projects/programadora.webp" alt="">
+                         </div>
+
+                         <!-- <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/projects/foto2portada-removebg-preview.png" alt="">
+                         </div> -->
+
+                        </div>
+<br><br><br><br><br><br><br><br><br>
+                        <h7 style="font-size: 20px;" ><i class="far fa-check-circle text-primary me-3"></i>¿Te gustaría aprender programación? <br>Aquí os dejo el link del Bootcamps intensivo de "Factoría F5"<br>
+                            <br> <a href="https://factoriaf5.org/" class="custom-button">Apúntate</a><br>
+                         <br><i class="far fa-check-circle text-primary me-3"></i>¡También te ofrezco un pequeño curso en mi sección de servicios, lo podrás hacer online y en tu tiempo!</h7>
+             
+                
+                    <!-- <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p> -->
+                    <!-- <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
+                    </div> -->
+                    <!-- <p class="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p> -->
+                    
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://instagram.com/program.iv?igshid=MjEwN2IyYWYwYw=="><i class="bi-instagram"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/ivon4"><i class="bi-github"></i></a>
+                        <!-- <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a> -->
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/ivon-madrid/"><i class="fab fa-linkedin-in"></i></a>
+
+                        
+                            <a class="btn btn-square btn-primary me-2" href="https://wa.me/message/SJQ45FVMDMQJC1">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        
+
+
+                    </div>
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start --------------------------------------------------------------->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Habilidades y Experiencia</h1>
+                    <!-- <p class="mb-4">.</p>
+                    <h3 class="mb-4">My Skills</h3> -->
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                          
+                                <div class="skill container">
+                                    <div class="knowledge-part">
+                                    
+                                        <div class="knowledge">
+                                            <div>
+                                                <img src="./img/iconos/html-icon.png" width="60px" alt="">
+                                                <h3>HTML</h3>
+                                            </div>
+                                            <div>
+                                                <img src="./img/iconos/css-icon.png" width="60px" alt="">
+                                                <h3>CSS</h3>
+                                            </div>
+                                            <div><img src="./img/iconos/icono js.png" width="60px" alt="">
+                                                <h3>JavaScript</h3>
+                                            </div>
+
+                                            <div><img src="./img/iconos/icono-xampp-color.png" width="60px" alt="">
+                                                <h3>Xampp</h3>
+                                            </div>
+
+                                            <div><img src="./img/iconos/8725837_docker_icon.png" width="60px" alt="">
+                                                <h3>Docker</h3>
+                                            </div> 
+                            
+
+                                            <div><img src="./img/iconos/seo-icon.png" width="60px" alt="">
+                                                <h3>Optimización SEO</h3>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                           
+                           
+                                    <div class="tools-part">
+                                       
+                                        <div class="tools">
+                                            <div>
+                                                <img src="./img/iconos/github-icon.png" width="60px" alt="">
+                                                <h3>GitHub</h3>
+                                            </div>
+
+                                            <div>
+                                                <img src="./img/iconos/git-icon.png" width="60px" alt="">
+                                                <h3 >GIT</h3>
+                                            </div>
+
+                                            <div>
+                                                <img src="./img/iconos/vsc-icon.png" width="60px" alt="">
+                                                <h3>Visual Studio</h3>
+                                            </div>
+                                           
+                                           <div>
+                                               <img src="./img/iconos/npm-icon.png" width="60px" alt="">
+                                                <h3>NPM</h3>
+                                            </div>
+                                         
+                                            <div>
+                                                <img src="./img/iconos/bootstrap_plain_logo_icon_146619.png" width="60px" alt="">
+                                                <h3>Bootstrap</h3>
+                                            </div>
+                                           
+                                            <div>
+                                                <img src="./img/iconos/tailwindcolor48px.png" width="60px" alt="">
+                                                <h3>Tailwind</h3>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="knowledge-part">
+                                    
+                                        <div class="knowledge">
+                                        
+                                            <div>
+                                                <img src="./img/iconos/7423888_react_react native_icon.png" width="60px" alt="">
+                                                <h3>React</h3>
+                                            </div>
+
+                                            <div>
+                                                <img src="./img/iconos/icono node js.png" width="60px" alt="">
+                                                <h3>Node</h3>
+                                            </div>
+                                            <div><img src="./img/iconos/4375039_logo_php_icon.png" width="60px" alt="">
+                                                <h3>PHP</h3>
+                                            </div>
+                                            <div><img src="./img/iconos/laravel_logo_icon.png" width="60px" alt="">
+                                                <h3>Laravel</h3>
+                                            </div> 
+                                            <div><img src="./img/iconos/1012821_code_development_logo_mysql_icon.png" width="60px" alt="">
+                                                <h3>Mysql</h3>
+                                            </div>
+                                             <div><img src="./img/iconos/linux_logo_logos_icon.png" width="60px" alt="">
+                                                <h3>Linux</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                           
+                                    <div class="knowledge-part">
+                                    
+                                        <div class="knowledge">
+                                        
+                                            <div>
+                                                <img src="./img/iconos/postman48px.png" width="60px" alt="">
+                                                <h3>Postman</h3>
+                                            </div>
+
+                                            <div><img src="./img/iconos/vue.png" width="60px" alt="">
+                                                <h3>Vue</h3>
+                                            </div> 
+
+                                            <div>
+                                                <img src="./img/iconos/2993707_adobe_brand_brands_logo_logos_icon.png" width="60px" alt="">
+                                                <h3>Photoshop</h3>
+                                            </div>
+                                            <div><img src="./img/iconos/icono figma color.png" width="60px" alt="">
+                                                <h3>Figma</h3>
+                                            </div>
+                                           
+                                            <div><img src="./img/iconos/worpress48px.png" width="60px" alt="">
+                                                <h3>Wordpress</h3>
+                                            </div>
+                                            <div>
+                                                <img src="./img/iconos/mongodb.png" width="60px" alt="">
+                                                <h3>MongoDB</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                         
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experiencia</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Educación</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Desarrollador Web</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Abril2023 -Agosto2023 </p>
+                                    <h6 class="mb-0">Factoría F5</h6>
+                                </div>
+                               <div class="col-sm-6">
+                                    <h5>Responsable de Recepción</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2019 - 2020</p>
+                                    <h6 class="mb-0">Ch Arriaza y Arriaza</h6>
+                                </div>
+                           
+                                <!-- <div class="col-sm-6">
+                                    <h5>Apps Designer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <h6 class="mb-0">Apex Software Inc</h6>
+                                </div>  -->
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Desarrollador Web Full Stack</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Febrero/2023 - Agosto/2023</p>
+                                    <h6 class="mb-0">Factoría F5.Madrid</h6>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <h5>Visual Basic en comercio electrónico</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Enero2023 - Febrero2023</p>
+                                    <h6 class="mb-0">Formación Cesur. Madrid</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Visual Basic/C ++ </h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Enero2010 - Abril2010</p>
+                                    <h6 class="mb-0">"U.C.V" "Venezuela"</h6>
+                                </div>
+                                
+                                <div class="col-sm-6">
+                                    <h5>Ingeniería Geológica</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2009 - 2016</p>
+                                    <h6 class="mb-0">Universidad Central de Venezuela</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Bachillerato en Ciencias</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <h6 class="mb-0">U.E.N "Rafael Hernández León"-Venezuela</h6>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <h5>Diseño Web Ecológico.Green Digital Skills</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">7/Junio/2023 - 7/Julio/2023</p>
+                                    <h6 class="mb-0">Inco Academy</h6>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start ----------------------------------------------------->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div> -->
+
+                <div class="col-lg-6">
+                    <div class="services-title display-5 mb-0">Mis Servicios</div>
+                </div>
+                
+
+
+            
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <!-- <div class="ms-sm-4">
+                            <h4 class="mb-3">Creative Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div> -->
+
+                     
+                                <!-- Contenido del primer servicio -->
+
+
+                        <div class="ms-sm-4">
+                            <div class="custom-title mb-3">Aprende Programación Web Básica</div>
+                            <div class="custom-subtitle mb-3">Oferta<span class="text-primary">7.00€</span></div>
+                            <p class="custom-text">¡Compra aquí el curso online y domina los fundamentos de HTML y CSS!.<br><br>
+                                <i class="far fa-check-circle text-primary me-3"></i>  Aprende a crear páginas web con HTML.<br>
+                                <i class="far fa-check-circle text-primary me-3"></i> Domina el diseño y la estilización con CSS.<br>
+                                <i class="far fa-check-circle text-primary me-3"></i>Proyecto final para aplicar tus conocimientos.<br>
+                                <i class="far fa-check-circle text-primary me-3"></i>No se requiere experiencia previa en programación.<br>
+                                <i class="far fa-check-circle text-primary me-3"></i>¡No pierdas la oportunidad de convertirte en un desarrollador web!.
+
+                            </p>
+
+                            <div class="row-g-9">
+                                    <!-- <div class="col-lg-6 text-lg-end">
+                                         <a class="btn btn-primary py-3 px-5"  href="">Más info</a>
+                                     </div> -->
+
+                                    <!-- <div class="col-lg-6 text-lg-end">
+                                             <a class="btn btn-primary py-3 px-5"  href="https://hotm.art/GA6WCtr">Comprar</a>
+                             
+                                    </div> -->
+                                    <div class="custom-column">
+                                        <a class="custom-link" href="https://hotm.art/GA6WCtr">Comprar</a>
+                                    </div>
+
+
+                                    <div class="mi-clase-personalizada">
+                                        <a class="btn btn-primary py-3 px-5" href="https://wa.me/message/SJQ45FVMDMQJC1">
+                                            <i class="fab fa-whatsapp"></i> Más Info
+                                        </a>
+                                    </div>
+                                    
+
+
+
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <div class="custom-title mb-3">Potencia Tu Presencia en Línea con Landing Pages Profesionales</div>
+                            <div class="custom-subtitle mb-3">Como freelance especializada en diseño y desarrollo web, te ofrezco mis servicios para crear Landing Pages impactantes que impulsen tu negocio.
+                            </div>
+                                <p class="custom-text">
+                                    <i class="far fa-check-circle text-primary me-3"></i>Diseño Personalizado: Trabajaré contigo para crear una Landing Page que refleje tu marca y atraiga a tu audiencia.<br>
+                                    <i class="far fa-check-circle text-primary me-3"></i>Experiencia Responsiva: Garantizaré que tu Landing Page se vea y funcione de manera excelente en dispositivos móviles y de escritorio.<br>
+                                    <i class="far fa-check-circle text-primary me-3"></i>Tendrá Posicionamiento en Seo.<br>
+                                    <i class="far fa-check-circle text-primary me-3"></i>Si estás buscando una solución completa y personalizada para tu presencia en línea, ¡estoy aquí para ayudarte!<br>
+
+                                   <br> ¡Contáctame hoy mismo para discutir tus necesidades y comenzar a trabajar en tu Landing Page!.
+                                
+                                </p>
+
+                                <!-- <div class="mi-clase-nueva">
+                                    <a class="btn btn-primary py-3 px-5" href="https://wa.me/message/SJQ45FVMDMQJC1">
+                                        <i class="fab fa-whatsapp"></i> ¡Contáctame!
+                                    </a>
+                                </div> -->
+                          
+                                <div class="mi-clase-personalizada">
+                                    <a class="btn btn-primary py-3 px-5" href="https://wa.me/message/SJQ45FVMDMQJC1">
+                                        <i class="fab fa-whatsapp"></i>       ¡Contáctame!
+                                    </a>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">UI/UX Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container-projects">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Mis Proyectos</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">Todos los Proyectos</li>
+                        <li class="mx-3" data-filter=".first">Diseños</li>
+                        <!-- <li class="mx-3" data-filter=".second">Graphic Design</li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/portada-ingenero1.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/2portadaingenero.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/ivon4/Proyecto-final"><i class="fa fa-link"></i></a>
+                            <!-- https://comfy-chebakia-837b1b.netlify.app -->
+                        </div>
+                    </div>
+                    <!-- https://github.com/ivon4/Proyecto-final -->
+                    <!-- <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/project-samoyedos2.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/project-samoyedos2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            Enlace para la nueva imagen -->
+                        <!-- </div>
+                    </div> --> 
+
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/portadanuevasamoyedos.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/project-samoyedos1.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://ivon4.github.io/Tienda_de_animales_1/"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/portadaTODO.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/SNIPPETS3.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://peppy-frangipane-2f5118.netlify.app/"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/7.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/8.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://dulcet-crumble-32ffe0.netlify.app/"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/portada-calendario1.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/2daportadacalendario.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/ivon4/appcalendario"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/projects/snippet.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projects/4TOSNIPPETS.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/ivon4/Red_social/tree/main/ej6_vista-main"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Team Members</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Full Name</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Full Name</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Full Name</h5>
+                                <span>Designer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+   <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <!-- <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1> -->
+            <div class="testimonial-title display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonios</div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Soy Profesor y programador de Factoría F5.Estoy muy contento con Ivón y de trabajar en algunos talleres con ella,ya que ha logrado alcanzar y cumplir todos los objetivos,es constante, su trabajo es muy bueno y ha destacado en sus proyectos y la recomiendo.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Gonzalo Bossetti</h5>
+                            <span>Programador Web</span>
+                        </div>
+
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Estoy muy contento con el equipo de trabajo, me ha encantado todo el trabajo y el esfuerzo de trabajo en campo, recomiendo a Ivón y su grupo , un proyecto que sigue en camino y pronto sera visto por muchos.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Ruben</h5>
+                            <span>Director de proyectos de teatro</span>
+                        </div> 
+<!-- 
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Client Name</h5>
+                            <span>Profession</span>
+                        </div> 
+                    -->
+
+
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <!-- <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Testimonial End -->
+
+
+    
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Contáctame</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hola</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Mi lugar:</p>
+                    <h3 class="fw-bold"> Madrid,Spain</h3>
+                    <!-- <hr class="w-100"> -->
+                    <!-- <p class="mb-2">LLámame:</p>
+                    <h3 class="fw-bold">+34 603363770</h3> -->
+                    <hr class="w-100">
+                    <p class="mb-2">Escríbeme:</p>
+                    <h3 class="fw-bold">madridivon7@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Sígueme:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://instagram.com/program.iv?igshid=MjEwN2IyYWYwYw=="><i class="bi-instagram"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/ivon4"><i class="bi-github"></i></a>
+                        <!-- <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a> -->
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/ivon-madrid/"><i class="fab fa-linkedin-in"></i></a>
+
+                        
+                            <a class="btn btn-square btn-primary me-2" href="https://wa.me/message/SJQ45FVMDMQJC1">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        
+
+
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+                    <p class="mb-4">Formulario de contacto .</a>.</p>
+                    <form action="https://formsubmit.co/madridivon7@gmail.com" method="POST">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Correo</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Asunto</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" name="message" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Enviar mensaje </button>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5502/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <!-- <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>
+    </div> -->
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <a class="border-bottom text-secondary" href="#">&copy; 2023 Mi Portafolio</a>, 
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-end">
+                       /*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <!-- Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+                    </div> --> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+    <script>
+        // Obtén una referencia al elemento body
+        const body = document.body;
+        
+        // Agrega la clase dark-mode automáticamente cuando se carga la página
+        window.addEventListener("load", () => {
+            body.classList.add("dark-mode");
+        });
+  </script>
+        
+        
+        
+        
+
+
+    
+</body>
+
+</html>
